@@ -41,8 +41,14 @@ public class LogicalNode
     }
 
     public void SetState(boolean i) {
-
     }
+    public boolean GetState(){
+        return false;
+    }
+    public int getState(){
+        return 2;
+    }
+    public void setState(int i){ }
     public void RemoveInput(LogicalNode node) {
         inputs.remove(node);
     }

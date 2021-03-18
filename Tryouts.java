@@ -862,7 +862,7 @@ public class Tryouts extends JPanel { // our grid will be drawn in a dedicated P
                     else value += 0;
                 }
                 if (outputs[arrayOfLogicElements[i]] != null && elements[i].equals("OUTPUT")) {
-                    int getState = outputs[arrayOfLogicElements[i]].GetState();
+                    int getState = outputs[arrayOfLogicElements[i]].getState();
                     if (getState == 0) {
                         value = "0";
                     } else if (getState == 1) {
